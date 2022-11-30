@@ -1,0 +1,7 @@
+We can request for resourse using curl
+
+cmd: curl -v --trace output.txt "http://google.com" 
+    Output will be an HTML page showing server moved basically redirecting to other location.
+cmd: type output.txt
+
+We will see a machine code representing response from serve-
